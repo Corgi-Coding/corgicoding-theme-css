@@ -1,6 +1,6 @@
 {
   "name": "@corgicoding/theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Render css based on the markdown format modified by typo.css",
   "jsdelivr": "corgicoding.theme.min.css",
   "unpkg": "corgicoding.theme.min.css",
