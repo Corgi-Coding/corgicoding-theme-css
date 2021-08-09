@@ -342,7 +342,7 @@
 }
 
 .c-html-render h1::before {
-  content: "Title:";
+  content: "#";
   margin-right: 10px;
   color: #0086b3;
   font-family: Palatino, Optima, Georgia, serif;

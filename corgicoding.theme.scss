@@ -2,6 +2,8 @@ $background-color: #fff;
 $theme-color: #0086b3;
 $text-hover-color: #555;
 
+$h1-before-content: "#";
+
 $title-family: PingFang SC, Verdana,
 Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif,
 WenQuanYi Micro Hei, sans-serif;
@@ -370,7 +372,7 @@ Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
     padding-bottom: 1em;
     border-bottom: 1px solid #000;
     &::before {
-      content: "Title:";
+      content: $h1-before-content;
       margin-right: 10px;
       color: $theme-color;
       font-family: $serif-family;
