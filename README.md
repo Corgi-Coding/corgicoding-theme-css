@@ -12,36 +12,38 @@ Render css based on the markdown format modified by typo.css.
 
 There are two ways to use it
 
-### Default
-
-1. Add the `c-html-render` class to the dom element to be rendered.
-2. Add the following code to the page.
-
-``` html
-    <!--   Prevent compatibility issues caused by different browsers   --> 
-    <link rel="stylesheet" href="./style/normalize.css" />
-    <!--   corgicoding.theme   -->
-    <link rel="stylesheet" href="./style/corgicoding.theme.min.css" />
-    <!--   github style code render   -->
-    <link rel="stylesheet" href="./style/github.css" />
-```
-
 ### NPM
 
 1. Install package
 
 ```
-    npm install corgicoding-theme-css
+    npm install @corgicoding/theme
 ```
 
 2. Import css file to the page.
 
 ``` js
     /* On-demand import */
-    import "corgicoding-theme-css/dist/normalize.css";
-    import "corgicoding-theme-css/dist/github.css";
+    import "@corgicoding/theme/dist/normalize.css";
+    import "@corgicoding/theme/dist/github.css";
 
-    import "corgicoding-theme-css/corgicoding.theme.min.css";
+    import "@corgicoding/theme";
 ```
 
 3. Add the `c-html-render` class to the dom element to be rendered.
+
+### HTML
+
+1. DownLoad this Repository.
+2. Unzip
+3. Add the `c-html-render` class to the dom element to be rendered.
+4. Add the following code to the page.
+
+``` html
+    <!--   Prevent compatibility issues caused by different browsers   --> 
+    <link rel="stylesheet" href="./dist/normalize.css" />
+    <!--   corgicoding.theme   -->
+    <link rel="stylesheet" href="./dist/corgicoding.theme.min.css" />
+    <!--   github style code render   -->
+    <link rel="stylesheet" href="./dist/github.css" />
+```
