@@ -4,7 +4,8 @@ Render css based on the markdown format modified by typo.css.
 
 ## How to use
 
-Add the following code to the page.
+1. Add the `c-html-render` class to the dom element to be rendered.
+2. Add the following code to the page.
 
 ``` html
     <!--   Prevent compatibility issues caused by different browsers   --> 
@@ -14,4 +15,3 @@ Add the following code to the page.
     <!--   github style code render   -->
     <link rel="stylesheet" href="./style/github.css" />
 ```
-
