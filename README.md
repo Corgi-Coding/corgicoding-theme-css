@@ -37,8 +37,9 @@ There are two ways to use it
 2. Import css file to the page.
 
 ```
+    <!-- On-demand import -->
     import "corgicoding-theme-css/dist/normalize.css";
-    import "corgicoding-theme-css/dist/corgicoding.theme.min.css";
+    import "corgicoding-theme-css/dist/github.css";
 
     import "corgicoding-theme-css/corgicoding.theme.min.css";
 ```
