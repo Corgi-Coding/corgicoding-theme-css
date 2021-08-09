@@ -2,7 +2,7 @@ $background-color: #fff;
 $theme-color: #0086b3;
 $text-hover-color: #555;
 
-$title-family: Palatino, Optima, Georgia, serif,PingFang SC, Verdana,
+$title-family: PingFang SC, Verdana,
 Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif,
 WenQuanYi Micro Hei, sans-serif;
 $title-color: #333;
@@ -12,7 +12,7 @@ $pre-border-color: #ddd;
 $pre-code-family: Courier, "Courier New", monospace;
 
 $hr-border-color: #cfcfcf;
- 
+
 $small-text-color: #888;
 $strong-text-color: #333;
 
@@ -25,9 +25,10 @@ $h5-font-size: 1.2em;
 $quote-border-color: #b3b3b3;
 $quote-color: #999;
 
-$base-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
-
 $serif-family: Palatino, Optima, Georgia, serif;
+
+$base-font: 300 1em/1.8 PingFang SC, Lantinghei SC, Microsoft Yahei,
+Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
 
 /*
 额外定义类:
@@ -46,14 +47,8 @@ $serif-family: Palatino, Optima, Georgia, serif;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   word-break: break-all;
-  font-family: $base-family;
-  line-height: 1.4em;
-  font-size: 1em;
-
-  p {
-    line-height: 1.4em;
-    text-indent: 1em;
-  }
+  font: $base-font;
+  line-height: 1.55em;
 
   /* adaptation */
   body,
@@ -378,6 +373,7 @@ $serif-family: Palatino, Optima, Georgia, serif;
       content: "Title:";
       margin-right: 10px;
       color: $theme-color;
+      font-family: $serif-family;
     }
   }
 
@@ -387,7 +383,7 @@ $serif-family: Palatino, Optima, Georgia, serif;
       content: counter(h2counter) ".\0000a0\0000a0";
       margin-right: 10px;
       color: #3c3c3c;
-      font-size: $h2-font-size - 0.5em;
+      font-size: $h2-font-size - 0.7em;
     }
   }
 
@@ -398,7 +394,7 @@ $serif-family: Palatino, Optima, Georgia, serif;
       counter(h3counter) ".\0000a0\0000a0";
       margin-right: 10px;
       color: #5c5c5c;
-      font-size: $h3-font-size - 0.5em;
+      font-size: $h3-font-size - 0.7em;
     }
   }
 
@@ -410,7 +406,7 @@ $serif-family: Palatino, Optima, Georgia, serif;
       counter(h4counter) ".\0000a0\0000a0";
       margin-right: 10px;
       color: #7c7c7c;
-      font-size: $h4-font-size - 0.5em;
+      font-size: $h4-font-size - 0.7em;
     }
   }
 

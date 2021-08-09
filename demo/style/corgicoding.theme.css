@@ -15,15 +15,9 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   word-break: break-all;
-  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
-  line-height: 1.4em;
-  font-size: 1em;
+  font: 300 1em/1.8 PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+  line-height: 1.55em;
   /* adaptation */
-}
-
-.c-html-render p {
-  line-height: 1.4em;
-  text-indent: 1em;
 }
 
 .c-html-render body,
@@ -308,7 +302,7 @@
 .c-html-render h4,
 .c-html-render h5,
 .c-html-render h6 {
-  font-family: Palatino, Optima, Georgia, serif, PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+  font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
   font-weight: 100;
   color: #333;
   line-height: 1.35;
@@ -351,6 +345,7 @@
   content: "Title:";
   margin-right: 10px;
   color: #0086b3;
+  font-family: Palatino, Optima, Georgia, serif;
 }
 
 .c-html-render h2::before {
@@ -358,7 +353,7 @@
   content: counter(h2counter) ".  ";
   margin-right: 10px;
   color: #3c3c3c;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .c-html-render h3::before {
@@ -366,7 +361,7 @@
   content: counter(h2counter) "." counter(h3counter) ".  ";
   margin-right: 10px;
   color: #5c5c5c;
-  font-size: 1em;
+  font-size: 0.8em;
 }
 
 .c-html-render h4::before {
@@ -374,7 +369,7 @@
   content: counter(h2counter) "." counter(h3counter) "." counter(h4counter) ".  ";
   margin-right: 10px;
   color: #7c7c7c;
-  font-size: 0.8em;
+  font-size: 0.6em;
 }
 
 .c-html-render ul {
