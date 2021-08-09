@@ -8,6 +8,10 @@ Render css based on the markdown format modified by typo.css.
 - Organization: Corgi Coding
 - Github: https://github.com/Corgi-Coding
 
+## Demo
+
+Here is an html file for your reference [link](./demo/index.html)
+
 ## How to use
 
 There are two ways to use it
@@ -46,4 +50,7 @@ There are two ways to use it
     <link rel="stylesheet" href="./dist/corgicoding.theme.min.css" />
     <!--   github style code render   -->
     <link rel="stylesheet" href="./dist/github.css" />
+
+
+    <div class="c-html-render" />
 ```
