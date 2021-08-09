@@ -1,0 +1,21 @@
+{
+  "name": "corgicoding-theme-css",
+  "version": "1.0.0",
+  "description": "Render css based on the markdown format modified by typo.css.",
+  "main": "index.js",
+  "scripts": {
+    "_version": "npm version $(npm view corgicoding-theme-css version)",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Corgi-Coding/corgicoding-theme-css.git"
+  },
+  "keywords": ["markdown","markdown-it","html","css","scss","render","corgicoding","corgicoding-theme","Corgi Coding","Corgi-Coding","corgi coding","corgi-coding"],
+  "author": "Charles Chan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Corgi-Coding/corgicoding-theme-css/issues"
+  },
+  "homepage": "https://github.com/Corgi-Coding/corgicoding-theme-css#readme"
+}
