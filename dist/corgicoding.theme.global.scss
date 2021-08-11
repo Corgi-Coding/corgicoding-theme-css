@@ -4,9 +4,8 @@ $text-hover-color: #555;
 
 $h1-before-content: "#";
 
-$title-family: PingFang SC, Verdana,
-Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif,
-WenQuanYi Micro Hei, sans-serif;
+$title-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei,
+  Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
 $title-color: #333;
 
 $pre-color: #f8f8f8;
@@ -30,7 +29,7 @@ $quote-color: #999;
 $serif-family: Palatino, Optima, Georgia, serif;
 
 $base-font: 300 1em/1.8 PingFang SC, Lantinghei SC, Microsoft Yahei,
-Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+  Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
 
 /*
 额外定义类:
@@ -38,7 +37,8 @@ Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
 - serif
 */
 
-.c-html-render {
+html,
+body {
   /* html init settings */
   color: #333;
   background: #fff;
@@ -247,7 +247,7 @@ Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
   }
 
   pre {
-    //background: $pre-color;
+    background: $pre-color !important;
     border: 1px solid $pre-border-color;
     padding: 1em 1.5em;
     display: block;
@@ -256,17 +256,17 @@ Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
 
   p code {
     color: #476582;
-    padding: .25rem .5rem;
+    padding: 0.25rem 0.5rem;
     margin: 0;
-    background-color: rgba(27,31,35,.05);
+    background-color: rgba(27, 31, 35, 0.05);
     border-radius: 3px;
   }
 
   li code {
     color: #476582;
-    padding: .25rem .5rem;
+    padding: 0.25rem 0.5rem;
     margin: 0;
-    background-color: rgba(27,31,35,.05);
+    background-color: rgba(27, 31, 35, 0.05);
     border-radius: 3px;
   }
 
@@ -399,8 +399,7 @@ Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
   h3 {
     &::before {
       counter-increment: h3counter;
-      content: counter(h2counter) "."
-      counter(h3counter) ".\0000a0\0000a0";
+      content: counter(h2counter) "." counter(h3counter) ".\0000a0\0000a0";
       margin-right: 10px;
       color: #5c5c5c;
       font-size: $h3-font-size - 0.7em;
@@ -410,16 +409,13 @@ Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
   h4 {
     &::before {
       counter-increment: h4counter;
-      content: counter(h2counter) "."
-      counter(h3counter) "."
-      counter(h4counter) ".\0000a0\0000a0";
+      content: counter(h2counter) "." counter(h3counter) "." counter(h4counter)
+        ".\0000a0\0000a0";
       margin-right: 10px;
       color: #7c7c7c;
       font-size: $h4-font-size - 0.7em;
     }
   }
-
-
 
   ul {
     margin-left: 1.3em;
