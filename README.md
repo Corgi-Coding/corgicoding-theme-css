@@ -8,6 +8,10 @@ Render css based on the markdown format modified by typo.css.
 - Organization: Corgi Coding
 - Github: https://github.com/Corgi-Coding
 
+*version 1.0.4: fix `li pre` style*  
+*version 1.0.4: fix `li pre` style*  
+*version 1.0.5: add feat global style*
+
 ## Demo
 
 Here is an html file for your reference [link](./demo/index.html)
