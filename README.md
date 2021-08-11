@@ -58,3 +58,14 @@ There are two ways to use it
 
     <div class="c-html-render" />
 ```
+
+### VSCODE
+
+Modify the `settting.json` file
+
+``` json
+  /* Absolute path or relative path */
+  "markdown.styles": [
+    "C:\\xxx\\corgicoding.vscode.min.css"
+  ],
+```
