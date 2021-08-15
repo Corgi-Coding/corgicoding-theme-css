@@ -204,7 +204,6 @@ html caption,
 html cite,
 html code,
 html dfn,
-html em,
 html th,
 html var,
 body address,
@@ -212,7 +211,6 @@ body caption,
 body cite,
 body code,
 body dfn,
-body em,
 body th,
 body var {
   font-style: normal;
@@ -586,7 +584,7 @@ html caption,
 body em,
 body legend,
 body caption {
-  color: #000;
+  color: #333;
   font-weight: inherit;
 }
 

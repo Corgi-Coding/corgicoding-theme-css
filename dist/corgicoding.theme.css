@@ -138,7 +138,6 @@
 .c-html-render cite,
 .c-html-render code,
 .c-html-render dfn,
-.c-html-render em,
 .c-html-render th,
 .c-html-render var {
   font-style: normal;
@@ -428,7 +427,7 @@
 .c-html-render em,
 .c-html-render legend,
 .c-html-render caption {
-  color: #000;
+  color: #333;
   font-weight: inherit;
 }
 
