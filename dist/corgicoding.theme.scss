@@ -1,5 +1,5 @@
 $background-color: #fff;
-$theme-color: #0086b3;
+$theme-color: #ea732b;
 $text-hover-color: #555;
 
 $h1-before-content: "#";
@@ -12,6 +12,8 @@ $title-color: #333;
 $pre-color: #f8f8f8;
 $pre-border-color: #ddd;
 $pre-code-family: Courier, "Courier New", monospace;
+
+$code-color: #690000;
 
 $hr-border-color: #cfcfcf;
 
@@ -41,7 +43,6 @@ Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
 .c-html-render {
   /* html init settings */
   color: #333;
-  background: #fff;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   text-rendering: optimizelegibility;
@@ -254,7 +255,7 @@ Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
   }
 
   p code {
-    color: #476582;
+    color: $code-color;
     padding: .25rem .5rem;
     margin: 0;
     background-color: rgba(27,31,35,.05);
@@ -262,7 +263,7 @@ Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
   }
 
   li code {
-    color: #476582;
+    color: $code-color;
     padding: .25rem .5rem;
     margin: 0;
     background-color: rgba(27,31,35,.05);
@@ -345,7 +346,7 @@ Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
     color: $title-color;
     line-height: 1.35;
     margin-top: 1.2em;
-    margin-bottom: 0.6em;
+    margin-bottom: 0.6em !important;
   }
 
   h1 {

@@ -11,6 +11,8 @@ Render css based on the markdown format modified by typo.css.
 *version 1.0.4: fix `li pre` style*  
 *version 1.0.4: fix `li pre` style*  
 *version 1.0.5: add feat global style*
+*version 1.0.6: remove global style | fix some error*
+
 
 ## Demo
 
@@ -59,13 +61,3 @@ There are two ways to use it
     <div class="c-html-render" />
 ```
 
-### VSCODE
-
-Modify the `settting.json` file
-
-``` json
-  /* Absolute path or relative path */
-  "markdown.styles": [
-    "C:\\xxx\\corgicoding.vscode.min.css"
-  ],
-```
